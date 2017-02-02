@@ -1,0 +1,1 @@
+I believe k random colors works better. The first k unique colors in the image are not at all representative of all the colors in the image. This issue leads to much longer runtimes because our starting cluster is much worse, so far more cluster iterations must be done. Ultimately though, both images (k random and k first) when used with 256 colors are of comparable quality.
